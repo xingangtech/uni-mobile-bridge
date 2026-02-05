@@ -1,0 +1,61 @@
+{
+  "id": "uni-mobile-bridge",
+  "displayName": "uni-mobile-bridge - 跨平台原生功能桥接",
+  "version": "1.0.0",
+  "description": "为 uniapp 提供跨平台原生功能访问,支持健康、运动、日历、提醒等功能",
+  "keywords": [
+    "health",
+    "健康",
+    "sports",
+    "运动", 
+    "calendar",
+    "日历",
+    "reminder",
+    "提醒",
+    "native",
+    "原生",
+    "android",
+    "ios",
+    "harmonyos"
+  ],
+  "repository": "https://github.com/xingangtech/uni-mobile-bridge",
+  "engines": {
+    "HBuilderX": "^3.0.0"
+  },
+  "dcloudext": {
+    "sale": {
+      "regular": {
+        "price": "0.00"
+      },
+      "sourcecode": {
+        "price": "0.00"
+      }
+    },
+    "contact": {
+      "qq": ""
+    },
+    "declaration": {
+      "ads": "无",
+      "data": "插件不采集任何数据",
+      "permissions": "需要访问健康数据、日历、提醒事项等系统权限"
+    },
+    "npmurl": "https://www.npmjs.com/package/uni-mobile-bridge",
+    "type": "unicloud-template-function"
+  },
+  "uni_modules": {
+    "dependencies": [],
+    "encrypt": [],
+    "platforms": {
+      "cloud": {
+        "tcb": "y",
+        "aliyun": "y"
+      },
+      "client": {
+        "App": {
+          "app-vue": "y",
+          "app-nvue": "y"
+        }
+      }
+    }
+  }
+}
