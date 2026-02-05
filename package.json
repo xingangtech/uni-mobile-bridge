@@ -1,0 +1,115 @@
+{
+  "id": "uni-mobile-bridge",
+  "name": "uni-mobile-bridge",
+  "version": "1.0.0",
+  "displayName": "uni-mobile-bridge - 跨平台原生功能桥接",
+  "description": "uni-mobile-bridge 是一个为 uniapp 设计的强大组件,旨在打通软件和硬件之间的信息壁垒,为开发者提供一站式的解决方案,轻松访问原生系统的核心功能,包括但不限于健康、运动、日历、提醒等",
+  "main": "js-sdk/index.js",
+  "types": "js-sdk/index.d.ts",
+  "keywords": [
+    "uniapp",
+    "uni-modules",
+    "health",
+    "健康",
+    "sports",
+    "运动",
+    "calendar",
+    "日历",
+    "reminder",
+    "提醒",
+    "cross-platform",
+    "跨平台",
+    "android",
+    "ios",
+    "harmonyos"
+  ],
+  "author": "xingangtech",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xingangtech/uni-mobile-bridge.git"
+  },
+  "engines": {
+    "HBuilderX": "^3.0.0"
+  },
+  "dcloudext": {
+    "category": [
+      "SDK",
+      "原生插件"
+    ],
+    "sale": {
+      "regular": {
+        "price": "0.00"
+      },
+      "sourcecode": {
+        "price": "0.00"
+      }
+    },
+    "contact": {
+      "qq": ""
+    },
+    "declaration": {
+      "ads": "无",
+      "data": "插件不采集任何数据",
+      "permissions": "健康数据、日历、提醒事项访问权限"
+    },
+    "npmurl": "https://www.npmjs.com/package/uni-mobile-bridge"
+  },
+  "uni_modules": {
+    "dependencies": [],
+    "nativePlugins": {
+      "android": {
+        "moduleName": "uni-mobile-bridge",
+        "pluginName": "UnimobileBridgeModule"
+      },
+      "ios": {
+        "moduleName": "uni-mobile-bridge",
+        "pluginName": "UnimobileBridgeModule"
+      },
+      "harmony": {
+        "moduleName": "uni-mobile-bridge",
+        "pluginName": "UnimobileBridgeModule"
+      }
+    },
+    "platforms": {
+      "cloud": {
+        "tcb": "y",
+        "aliyun": "y"
+      },
+      "client": {
+        "App": {
+          "app-vue": "y",
+          "app-nvue": "y"
+        },
+        "H5-mobile": {
+          "Safari": "n",
+          "Android Browser": "n",
+          "微信浏览器(Android)": "n",
+          "QQ浏览器(Android)": "n"
+        },
+        "H5-pc": {
+          "Chrome": "n",
+          "IE": "n",
+          "Edge": "n",
+          "Firefox": "n",
+          "Safari": "n"
+        },
+        "小程序": {
+          "微信": "n",
+          "阿里": "n",
+          "百度": "n",
+          "字节跳动": "n",
+          "QQ": "n"
+        },
+        "快应用": {
+          "华为": "n",
+          "联盟": "n"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "build": "echo 'Build script placeholder'",
+    "test": "echo 'Test script placeholder'"
+  }
+}

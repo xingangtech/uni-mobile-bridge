@@ -1,0 +1,9 @@
+{
+  "name": "uni-mobile-bridge",
+  "version": "1.0.0",
+  "description": "uni-mobile-bridge HarmonyOS Native Module",
+  "main": "index.ets",
+  "author": "xingangtech",
+  "license": "MIT",
+  "dependencies": {}
+}
