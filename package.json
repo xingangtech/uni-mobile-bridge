@@ -1,0 +1,45 @@
+{
+  "name": "uni-system-bridge",
+  "version": "2.0.0",
+  "description": "uniapp 多端硬件系统数据打通组件,支持健康、运动、日历、时间等原生功能的跨平台访问",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "keywords": [
+    "uniapp",
+    "health",
+    "fitness",
+    "calendar",
+    "alarm",
+    "permission",
+    "ios",
+    "android",
+    "harmony",
+    "healthkit",
+    "health-connect",
+    "system-bridge"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/uni-system-bridge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/uni-system-bridge/issues"
+  },
+  "homepage": "https://github.com/yourusername/uni-system-bridge#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "peerDependencies": {},
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "modules/",
+    "types/",
+    "utils/",
+    "components/",
+    "README.md",
+    "LICENSE"
+  ]
+}
