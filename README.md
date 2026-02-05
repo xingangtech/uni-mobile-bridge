@@ -1,16 +1,12 @@
-<<<<<<< HEAD
 # uni-mobile-bridge
-uni-mobile-bridge 是一个为 uniapp 设计的强大组件,旨在打通软件和硬件之间的信息壁垒,为开发者提供一站式的解决方案,轻松访问原生系统的核心功能,包括但不限于健康、运动、日历、提醒等。  该组件经过精心设计,实现了跨平台的高度兼容性,支持 Android、iOS 和 鸿蒙 (HarmonyOS),并对不同平台的 API 进行了统一封装,让开发者可以用一套代码实现多端部署。
-=======
-# uni-system-bridge
 
 **uniapp 多端硬件系统数据打通组件**
 
-`uni-system-bridge` 是一个为 uniapp 设计的强大组件,旨在打通软件和硬件之间的信息壁垒,为开发者提供一站式的解决方案,轻松访问原生系统的核心功能,包括但不限于健康、运动、日历、提醒等。
+`uni-mobile-bridge` 是一个为 uniapp 设计的强大组件,旨在打通软件和硬件之间的信息壁垒,为开发者提供一站式的解决方案,轻松访问原生系统的核心功能,包括但不限于健康、运动、日历、提醒等。
 
 该组件经过精心设计,实现了跨平台的高度兼容性,支持 **Android**、**iOS** 和 **鸿蒙 (HarmonyOS)**,并对不同平台的 API 进行了统一封装,让开发者可以用一套代码实现多端部署。
 
-[![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](https://github.com/yourusername/uni-system-bridge)
+[![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](https://github.com/xingangtech/uni-mobile-bridge)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ---
